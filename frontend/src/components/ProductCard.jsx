@@ -40,7 +40,7 @@ export default function ProductCard() {
             key: import.meta.env.RAZORPAY_KEY_ID,
             amount: data.amount,
             currency: data.currency,
-            name: "Devknus",
+            name: "Rahul kanyal",
             description: "Test Mode",
             order_id: data.id,
             handler: async (response) => {
@@ -80,7 +80,7 @@ export default function ProductCard() {
             <CardHeader color="" className="relative h-96 bg-[#2C3A47]">
                 {/* Image  */}
                 <img
-                    src="https://codeswear.nyc3.cdn.digitaloceanspaces.com/tshirts/pack-of-five-plain-tshirt-white/1.webp"
+                    src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/8d0c53ea-3feb-419e-a612-6c35d4be018e/air-max-dn-shoes-FtLNfm.png"
                     alt="card-image"
                 />
             </CardHeader>
